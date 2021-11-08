@@ -11,12 +11,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="08view.jsp">
-	<input type="text" name = "name" placeholder="이름" />
-	<br />
-	<input type="number" name = "age" placeholder="나이" />
-	<br />
-	<input type="submit" value="전송" />
-</form>
+	<form action="08-ex-view.jsp">
+		<input type="text" name = "name" placeholder="이름"/>
+		<br />
+		<input type="number" name = "age" placeholder="나이"/>
+		<br />
+		<select name = "Rides" >
+			<option value=1 >드라켄</option>
+			<option value=2 >회전목마</option>
+			<option value=3 >바이킹</option>
+			<option value=4 >관람차</option>
+		</select>
+		<input type="submit" value="입력" />
+	</form>
+
 </body>
 </html>
