@@ -16,7 +16,7 @@
 		<br />
 		<input type="number" name = "age" placeholder="나이"/>
 		<br />
-		<select name = "Rides" >
+		<select name = "Rides" size ="4" multiple="multiple">
 			<option value=1 >드라켄</option>
 			<option value=2 >회전목마</option>
 			<option value=3 >바이킹</option>
